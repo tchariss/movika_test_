@@ -72,10 +72,6 @@ class ViewController: UIViewController {
         return layer
     }()
     
-    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        return .landscapeRight
-    }
-    
     // MARK: - Functions
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -83,16 +79,6 @@ class ViewController: UIViewController {
         addConstraintsView()
         animationVector()
         timer()
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        AppUtility.lockOrientation(.landscapeRight)
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        AppUtility.lockOrientation(.all)
     }
     
     static func createColorLine(path: CGPath, isStart: Bool) -> CAShapeLayer {

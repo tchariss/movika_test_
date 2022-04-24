@@ -14,7 +14,6 @@
 		5AC2442D2812B862002DD809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC2442B2812B862002DD809 /* Main.storyboard */; };
 		5AC2442F2812B863002DD809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AC2442E2812B863002DD809 /* Assets.xcassets */; };
 		5AC244322812B863002DD809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC244302812B863002DD809 /* LaunchScreen.storyboard */; };
-		87E84A442815CDFC0044763C /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E84A432815CDFC0044763C /* AppUtility.swift */; };
 		87E84A462815CE4C0044763C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E84A452815CE4C0044763C /* Helper.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +27,6 @@
 		5AC2442E2812B863002DD809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AC244312812B863002DD809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AC244332812B863002DD809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		87E84A432815CDFC0044763C /* AppUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
 		87E84A452815CE4C0044763C /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,7 +64,6 @@
 				5AC244272812B862002DD809 /* SceneDelegate.swift */,
 				5AC244292812B862002DD809 /* ViewController.swift */,
 				87E84A452815CE4C0044763C /* Helper.swift */,
-				87E84A432815CDFC0044763C /* AppUtility.swift */,
 				5AC2442B2812B862002DD809 /* Main.storyboard */,
 				5A9572FD2812F2D90037AEFE /* PathSVG.swift */,
 				5AC2442E2812B863002DD809 /* Assets.xcassets */,
@@ -149,7 +146,6 @@
 			files = (
 				5AC2442A2812B862002DD809 /* ViewController.swift in Sources */,
 				5A9572FE2812F2D90037AEFE /* PathSVG.swift in Sources */,
-				87E84A442815CDFC0044763C /* AppUtility.swift in Sources */,
 				5AC244262812B862002DD809 /* AppDelegate.swift in Sources */,
 				5AC244282812B862002DD809 /* SceneDelegate.swift in Sources */,
 				87E84A462815CE4C0044763C /* Helper.swift in Sources */,
