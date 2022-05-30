@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="205px" viewBox="0 0 25 205" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>timeout_empty_left copy</title>
+    <defs>
+        <path d="M18.303,0 C18.303,0 -4.4408921e-16,52.174 -4.4408921e-16,103.598 C-4.4408921e-16,153.562 18.303,202.817 18.303,202.817 L18.303,0 Z" id="path-1"></path>
+        <path d="M17.894,0 L20.816,12.224 C20.816,12.224 2.921,50.131 2.921,100.183 C2.921,146.08824 18.067328,181.581067 20.4907405,186.966126 L20.6304646,187.274437 C20.751578,187.539658 20.816,187.675 20.816,187.675 L20.816,187.675 L17.894,199.899 C17.894,199.899 -8.8817842e-16,150.01 -8.8817842e-16,100.078 C-8.8817842e-16,50.061 17.894,0 17.894,0 L17.894,0 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-455.000000, -45.000000)">
+            <g id="timeout_empty_left-copy" transform="translate(467.051822, 146.737763) rotate(-180.000000) translate(-467.051822, -146.737763) translate(455.548322, 45.329263)">
+                <g id="Group-3">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <polygon id="Fill-1" fill-opacity="0" fill="#FF0258" mask="url(#mask-2)" points="-5 -5 23.303 -5 23.303 207.817 -5 207.817"></polygon>
+                </g>
+                <path d="M18.303,0 C18.303,0 -4.4408921e-16,52.174 -4.4408921e-16,103.598 C-4.4408921e-16,153.562 18.303,202.817 18.303,202.817" id="Stroke-4" stroke="#FF0258" stroke-width="1.8"></path>
+                <g id="Group-10" transform="translate(2.191000, 0.824000)">
+                    <g id="Group-7">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Clip-6"></g>
+                        <polygon id="Fill-5" fill-opacity="0.2" fill="#FF0258" mask="url(#mask-4)" points="-5 -5 25.816 -5 25.816 204.899 -5 204.899"></polygon>
+                    </g>
+                    <path d="M20.816,12.224 L17.894,0 C17.894,0 -8.8817842e-16,50.061 -8.8817842e-16,100.078 C-8.8817842e-16,150.01 17.894,199.899 17.894,199.899 L20.816,187.675 C20.816,187.675 2.921,150.08 2.921,100.183 C2.921,50.131 20.816,12.224 20.816,12.224 L20.816,12.224 Z" id="Stroke-8" stroke-opacity="0" stroke="#FF0258"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

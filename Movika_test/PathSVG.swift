@@ -11,7 +11,7 @@ import UIKit
 class PathSVG: NSObject {
 
     static let shapeArray : [UIBezierPath] = [
-        shape1, shape2, shape3, shape4, shape5, shape6, shape7, shape8, shape9, shape10, shape11, shape12, shape13, shape14
+        shape1, shape2, shape3, shape4, shape5, shape6, shape7, shape8, shape9, shape10, shape11, shape12, shape13
     ]
     
     // MARK: - Shape    
@@ -71,23 +71,13 @@ class PathSVG: NSObject {
     
     static let shape7: UIBezierPath = {
         let shape = UIBezierPath()
-        shape.move(to: CGPoint(x: 93, y: 300))
-        shape.addLine(to: CGPoint(x: 232.17, y: 82.56))
-        shape.addLine(to: CGPoint(x: 96.28, y: 80.4))
-        shape.addLine(to: CGPoint(x: 90, y: 39))
-        shape.addLine(to: CGPoint(x: 10, y: 20))
-        return shape
-    }()
-    
-    static let shape8: UIBezierPath = {
-        let shape = UIBezierPath()
         shape.move(to: CGPoint(x: 315, y: 70.49))
         shape.addLine(to: CGPoint(x: 315, y: 205))
         shape.addCurve(to: CGPoint(x: 53, y: 70), controlPoint1: CGPoint(x: 315, y: 205), controlPoint2: CGPoint(x: 304.96, y: 70))
         return shape
     }()
    
-    static let shape9: UIBezierPath = {
+    static let shape8: UIBezierPath = {
         let shape = UIBezierPath()
         shape.move(to: CGPoint(x: 274.3, y: 150.16))
         shape.addCurve(to: CGPoint(x: 205.22, y: 64.62), controlPoint1: CGPoint(x: 334.51, y: 92.58), controlPoint2: CGPoint(x: 268.37, y: 33.44))
@@ -96,7 +86,7 @@ class PathSVG: NSObject {
         return shape
     }()
     
-    static let shape10: UIBezierPath = {
+    static let shape9: UIBezierPath = {
         let shape = UIBezierPath()
         shape.move(to: CGPoint(x: 279, y: 235))
         shape.addCurve(to: CGPoint(x: 128.8, y: 233.06), controlPoint1: CGPoint(x: 275.11, y: 131.33), controlPoint2: CGPoint(x: 133.62, y: 137.61))
@@ -107,7 +97,7 @@ class PathSVG: NSObject {
         return shape
     }()
     
-    static let shape11: UIBezierPath = {
+    static let shape10: UIBezierPath = {
         let shape = UIBezierPath()
         shape.move(to: CGPoint(x: 195.13, y: 160.72))
         shape.addCurve(to: CGPoint(x: 264, y: 160.72), controlPoint1: CGPoint(x: 195.13, y: 160.72), controlPoint2: CGPoint(x: 236.42, y: 159.59))
@@ -118,7 +108,7 @@ class PathSVG: NSObject {
         return shape
     }()
     
-    static let shape12: UIBezierPath = {
+    static let shape11: UIBezierPath = {
         let shape = UIBezierPath()
         shape.move(to: CGPoint(x: 109.57, y: 221.9))
         shape.addCurve(to: CGPoint(x: 211.62, y: 113.23), controlPoint1: CGPoint(x: 109.57, y: 221.9), controlPoint2: CGPoint(x: 187.38, y: 137.59))
@@ -128,7 +118,7 @@ class PathSVG: NSObject {
         return shape
     }()
     
-    static let shape13: UIBezierPath = {
+    static let shape12: UIBezierPath = {
         let shape = UIBezierPath()
         shape.move(to: CGPoint(x: 83, y: 139.88))
         shape.addLine(to: CGPoint(x: 277.95, y: 139.88))
@@ -138,7 +128,7 @@ class PathSVG: NSObject {
         return shape
     }()
     
-    static let shape14: UIBezierPath = {
+    static let shape13: UIBezierPath = {
         let shape = UIBezierPath()
         shape.move(to: CGPoint(x: 93, y: 244))
         shape.addCurve(to: CGPoint(x: 276, y: 98.11), controlPoint1: CGPoint(x: 93, y: 244), controlPoint2: CGPoint(x: 235.26, y: 237.73))
@@ -148,47 +138,5 @@ class PathSVG: NSObject {
         return shape
     }()
     
-    // MARK: - Timer
-    static let lineLeft: UIBezierPath = {
-        let shape = UIBezierPath()
-        shape.move(to: CGPoint(x: 26.46, y: 0.5))
-        shape.addCurve(to: CGPoint(x: 1.02, y: 142.76), controlPoint1: CGPoint(x: 26.46, y: 0.5), controlPoint2: CGPoint(x: 1.02, y: 72.14))
-        shape.addCurve(to: CGPoint(x: 26.46, y: 279), controlPoint1: CGPoint(x: 1.02, y: 211.36), controlPoint2: CGPoint(x: 26.46, y: 279))
-        return shape
-    }()
-    
-    static let lineRight: UIBezierPath = {
-        let shape = UIBezierPath()
-        shape.move(to: CGPoint(x: 1.03, y: 0.5))
-        shape.addCurve(to: CGPoint(x: 32.73, y: 142.76), controlPoint1: CGPoint(x: 1.03, y: 0.5), controlPoint2: CGPoint(x: 32.73, y: 72.14))
-        shape.addCurve(to: CGPoint(x: 1.03, y: 279), controlPoint1: CGPoint(x: 32.73, y: 211.36), controlPoint2: CGPoint(x: 1.03, y: 279))
-        return shape
-    }()
-    
-    static let shapeTimerRight: UIBezierPath = {
-        let shape = UIBezierPath()
-        shape.move(to: CGPoint(x: 0.88, y: 16.79))
-        shape.addLine(to: CGPoint(x: 5.94, y: 0.01))
-        shape.addCurve(to: CGPoint(x: 36.94, y: 137.43), controlPoint1: CGPoint(x: 5.94, y: 0.01), controlPoint2: CGPoint(x: 36.94, y: 68.75))
-        shape.addCurve(to: CGPoint(x: 5.94, y: 274.5), controlPoint1: CGPoint(x: 36.94, y: 205.99), controlPoint2: CGPoint(x: 5.94, y: 274.5))
-        shape.addLine(to: CGPoint(x: 0.88, y: 257.71))
-        shape.addCurve(to: CGPoint(x: 31.88, y: 137.57), controlPoint1: CGPoint(x: 0.88, y: 257.71), controlPoint2: CGPoint(x: 31.88, y: 206.09))
-        shape.addCurve(to: CGPoint(x: 0.88, y: 16.79), controlPoint1: CGPoint(x: 31.88, y: 68.84), controlPoint2: CGPoint(x: 0.88, y: 16.79))
-        shape.close()
-        return shape
-    }()
-    
-    static let shapeTimerLeft: UIBezierPath = {
-        let shape = UIBezierPath()
-        shape.move(to: CGPoint(x: 29, y: 16.79))
-        shape.addLine(to: CGPoint(x: 24.94, y: 0.01))
-        shape.addCurve(to: CGPoint(x: 0.06, y: 137.43), controlPoint1: CGPoint(x: 24.94, y: 0.01), controlPoint2: CGPoint(x: 0.06, y: 68.75))
-        shape.addCurve(to: CGPoint(x: 24.94, y: 274.5), controlPoint1: CGPoint(x: 0.06, y: 205.99), controlPoint2: CGPoint(x: 24.94, y: 274.5))
-        shape.addLine(to: CGPoint(x: 29, y: 257.71))
-        shape.addCurve(to: CGPoint(x: 4.12, y: 137.57), controlPoint1: CGPoint(x: 29, y: 257.71), controlPoint2: CGPoint(x: 4.12, y: 206.09))
-        shape.addCurve(to: CGPoint(x: 29, y: 16.79), controlPoint1: CGPoint(x: 4.12, y: 68.84), controlPoint2: CGPoint(x: 29, y: 16.79))
-        shape.close()
-        return shape
-    }()
 }
 

@@ -9,12 +9,6 @@
 import UIKit
 
 class Helper {
-
-    static func createUIView() -> UIView {
-        let view = UIView()
-        view.translatesAutoresizingMaskIntoConstraints = false
-        return view
-    }
     
     static func createLabel() -> UILabel {
         let label = UILabel()
